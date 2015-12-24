@@ -1,5 +1,5 @@
-FROM ubuntu:trusty
-MAINTAINER Martin Høgh<mh@mapcentia.com>
+FROM ubuntu:14.04
+MAINTAINER Jonathan Mayer <jonathan.mayer@yecountability.co.uk>
 
 RUN  export DEBIAN_FRONTEND=noninteractive
 ENV  DEBIAN_FRONTEND noninteractive
